@@ -19,20 +19,21 @@ export default function LandingPage() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-7">
+        <div className="mx-auto max-w-2xl py-6">
           <div className="text-center">
             <Image
-              className="inline-block"
-              src={Logo}
-              width="200"
-              height="200"
-              alt="dev finder logo"
-            />
+  className="inline-block lg:h-44 lg:w-44 sm:h-36 sm:w-36"
+  src="/problem-solving.png"
+  width={150}
+  height={150}
+  alt="dev finder logo"
+/>
 
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
+
+            <h1 className="text-3xl font-extrabold sm:font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
               Find other awesome devs to pair with online
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-200">
+            <p className="mt-6 text-sm sm:text-lg sm:leading-8 text-gray-600 dark:text-gray-200">
               This platform is for sharing your screen and working with other
               random developers online so that you can work together
             </p>
@@ -46,10 +47,16 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between mx-20">
-        <Link href='https://x.com/RithikM15'><p className="text-xs font-semibold dark:text-[#E1F7F5]">Developed by <span className="font-serif  dark:text-[#E1F7F5] text-blue-600 hover:underline hover:text-lime-500 font-bold text-xl">M Rithik</span></p></Link>
+        <div className="flex justify-between lg:mx-20 sm:mx-10">
+        <Link href='https://x.com/RithikM15'>
+        <p className="text-xs font-semibold dark:text-[#E1F7F5]">
+          Developed by
+        <span className="font-serif ml-1 text-sm dark:text-[#E1F7F5] text-blue-600 underline hover:text-lime-500 font-bold sm:text-xl">
+          M Rithik
+        </span>
+        </p></Link>
         <Link href='https://github.com/Rithik-93/realtime-video-app' target="_blank"
-              rel="noopener noreferrer"><p className="text-blue-700 hover:underline font-bold pb-1">source code</p></Link>
+              rel="noopener noreferrer"><p className="text-blue-700 hover:underline font-bold text-sm sm:text-xl pb-1">source code</p></Link>
         </div>
       </div>
     </div>
